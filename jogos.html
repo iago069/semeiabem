@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABMAT | Jogos Matemáticos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>LABMAT</h1>
+        <p>Laboratório Interativo de Matemática</p>
+    </header>
+    
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><i class="fas fa-flask"></i> LABMAT</a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                <a href="jogos.html" class="active"><i class="fas fa-gamepad"></i> Jogos</a>
+                <a href="sobre.html"><i class="fas fa-info-circle"></i> Sobre</a>
+                <a href="contato.html"><i class="fas fa-envelope"></i> Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="section-title">Nossos Jogos Matemáticos</h2>
+        
+        <div class="games-grid">
+            <!-- Jogo 1 -->
+            <div class="game-card">
+                <div class="game-img-container">
+                    <img src="https://images.unsplash.com/photo-1636489953571-6a9d6df1e41a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Matemágica" class="game-img">
+                </div>
+                <div class="game-info">
+                    <h3>Matemágica</h3>
+                    <p>Desafios lógicos para todas as idades</p>
+                    <div class="game-details">
+                        <span class="status available">Disponível</span>
+                        <button class="play-btn">
+                            <i class="fas fa-play"></i> Jogar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Jogo 2 -->
+            <div class="game-card">
+                <div class="game-img-container">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Geometria Dinâmica" class="game-img">
+                </div>
+                <div class="game-info">
+                    <h3>Geometria Dinâmica</h3>
+                    <p>Explore formas e ângulos</p>
+                    <div class="game-details">
+                        <span class="status available">Disponível</span>
+                        <button class="play-btn">
+                            <i class="fas fa-play"></i> Jogar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 LABMAT - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
